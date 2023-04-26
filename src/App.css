@@ -1,0 +1,74 @@
+video {
+    object-fit: cover;  
+    width: 100vw;  
+    height: 100vh;  
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    z-index: -1;  
+  }  
+  .App {  
+      background-color: rgba(255, 255, 255, 0.5);  
+  }
+  .container {
+    display: flex;  
+    justify-content: center;  
+  }
+  .search {
+    width: 100%;  
+    padding: 12px 24px;  
+    background-color: transparent;  
+    font-size: 14px;  
+    line-height: 18px;  
+    color: #575756;  
+    background-color: transparent;  
+    margin-left: 0px;  
+    box-shadow: inset 0px 0px 0px 4px #7d3cfe;  
+    border-radius: 20%;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 45%;
+  }
+  .imgBtn{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .tasty{
+    position: absolute;
+    left:150px;
+    z-index: 1;
+  }
+  form{
+    display: flex;
+    align-items: center;
+  }
+  .icon{
+    width: 10px;
+    height: 10px;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul {
+    list-style: none;   
+    padding: 0;  
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);  
+    z-index: 2;
+  }
+  
+  li {  
+    display: block;  
+    padding: .4em .4em .4em .8em;  
+    margin: .5em 0 .5em 2.5em;  
+    background: #bfb6fd;  
+    border-radius: 25%;
+  }
+
+  p{
+    background-color: burlywood;
+  }
